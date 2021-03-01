@@ -1,0 +1,16 @@
+﻿<Window x:Class="EfApp.UI.Widgets.AddDepartmentDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EfApp.UI.Widgets"
+        mc:Ignorable="d"
+        Title="AddDepartmentDialog" Height="190.4" Width="388">
+    <Grid Margin="-1,0,1,1">
+        <Button Content="Save" HorizontalAlignment="Left" Margin="22,104,0,0" VerticalAlignment="Top" Height="32" Width="160" Click="Button_Click" Background="Black" Foreground="White"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="206,104,0,0" VerticalAlignment="Top" Height="32" Width="160" Background="Black" Foreground="White" Click="Button_Click_1"/>
+        <TextBox x:Name="Deptname" HorizontalAlignment="Center" Margin="0,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343" Height="27"/>
+        <Label Content="Enter Department  Name" HorizontalAlignment="Left" Margin="16,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
